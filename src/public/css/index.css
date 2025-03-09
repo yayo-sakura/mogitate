@@ -1,0 +1,111 @@
+.ProductList {
+    background: rgba(248, 248, 248, 1);
+    width: 1512px;
+    height: 1000px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 20px;
+
+}
+
+.ProductList__heading {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+h2 {
+    margin-left: 20px;
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+
+.ProductAddition__button {
+    margin-right: 20px;
+}
+
+.ProductAddition__button-submit {
+    border-radius: 5px;
+    background: rgba(255, 169, 41, 1);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px ;
+    border: none;
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(75, 75, 75, 1);
+}
+
+.ProductList__content {
+    width: 240px;
+    height: 267px;
+    gap: 40px;
+
+}
+
+
+.SearchForm__item-input {
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    width: 240px;
+    height: 44px;
+    padding-left:10px;
+    border-radius: 25px;
+    border-width: 1px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(224, 223, 222, 1)
+}
+
+.SearchForm__button-submit {
+    width: 240px;
+    height: 44px;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgba(245, 200, 0, 1);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(75, 75, 75, 1);
+}
+
+.SearchForm__sorting {
+    border-bottom: 1px solid rgba(224, 223, 222, 1)
+}
+
+h3 {
+    width: 120px;
+    height: 30px;
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(51, 51, 51, 1);
+}
+
+.SearchForm__item-select {
+    width: 240px;
+    height: 43px;
+    top: 21px;
+    left: 20px;
+    justify-content: space-between;
+    padding: 11px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid rgba(224, 223, 222, 1)
+}

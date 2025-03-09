@@ -1,0 +1,127 @@
+.ProductRegister {
+    width: 1512px;
+    height: 930px;
+    padding-top: 70px;
+    padding-right: 376px;
+    padding-bottom: 70px;
+    padding-left: 376px;
+    background: rgba(248, 248, 248, 1);
+}
+
+h2 {
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+
+}
+
+.form__group {
+    width: 760px;
+    height: 702px;
+
+}
+
+.form__group-product {
+    width: 760px;
+    height: 77px;
+    margin-bottom: 30px;
+}
+
+.form__label {
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+.form__label--item {
+    width: 48px;
+    height: 24px;
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(75, 75, 75, 1);
+}
+
+.form__label--required {
+    width: 34px;
+    height: 18px;
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(253, 7, 7, 1);
+    padding: 1px 5px;
+}
+
+input[type="text"] {
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    width: 760px;
+    height: 43px;
+    padding: 11px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(224, 223, 222, 1)
+    
+
+}
+
+.form__label--multiple {
+    width: 60px;
+    height: 18px;
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(253, 7, 7, 1);
+}
+
+.form__group-explanation {
+    width: 760px;
+    height: 194px;
+}
+
+.form__button {
+    display: flex;
+    width: 760px;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.form__button-return {
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px;
+    border-radius: 5px;
+    background: rgba(224, 223, 222, 1);
+    border: none;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    color: rgba(75, 75, 75, 1);
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.form__button-register {
+    width: 200px;
+    height: 50px;
+    padding-top: 13px 10px;
+    border-radius: 5px;
+    background: rgba(245, 200, 0, 1);
+    border: none;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    color: rgba(75, 75, 75, 1);
+    font-family:'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
